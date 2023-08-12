@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+<defs>
+    <path d="M243.2, 382.4c-74.8,   
+    0-135.5-60.7-135.5-135.5s60.7-135.5,135.5-135.5s135.5, 60.7, 135.5,
+    135.5 S318, 382.4, 243.2, 382.4z" id="textcircle" />
+    <style>
+    @font-face 
+    {
+    font-family: 'july01';
+    src: url('../fonts/regular_j.woff') format('woff'); /* Modern Browsers */
+    font-style: normal;
+     font-weight: normal;
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+    }
+    
+        text { 
+            fill:#FFFFFF;
+            font-size: 30px;
+            font-family: "july01";
+            font-weight: 100; 
+            text-transform: uppercase;
+            letter-spacing: 20px;
+            
+        }
+    </style>
+</defs> 
+    <text dy="25" textLength="800">
+        <textPath xlink:href="#textcircle">
+            a vintage thrilling ride
+        </textPath>
+    </text>
+</svg>
