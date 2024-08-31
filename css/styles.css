@@ -1,7 +1,6 @@
 @import "css/locomotive-scroll.min.css";
 
-@media screen 
-{
+
     @font-face 
     {
     font-family: 'july01Light';
@@ -2533,7 +2532,7 @@
     height:110vh;
     }
 
-}
+
 
 /* #### TABLET / PHONE PORTRAIT #### */
 @media screen and (max-width:820px) and (orientation: portrait) 
